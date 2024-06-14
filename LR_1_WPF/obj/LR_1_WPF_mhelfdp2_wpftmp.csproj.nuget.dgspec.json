@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\D\\Visual Studio C#\\University\\3 курс\\2 семестр\\LR_TRSPO\\LR_1\\LR_1_WPF\\LR_1_WPF.csproj": {}
+  },
+  "projects": {
+    "C:\\D\\Visual Studio C#\\University\\3 курс\\2 семестр\\LR_TRSPO\\LR_1\\LR_1_WPF\\LR_1_WPF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\D\\Visual Studio C#\\University\\3 курс\\2 семестр\\LR_TRSPO\\LR_1\\LR_1_WPF\\LR_1_WPF.csproj",
+        "projectName": "LR_1_WPF",
+        "projectPath": "C:\\D\\Visual Studio C#\\University\\3 курс\\2 семестр\\LR_TRSPO\\LR_1\\LR_1_WPF\\LR_1_WPF.csproj",
+        "packagesPath": "C:\\Users\\fires\\.nuget\\packages\\",
+        "outputPath": "C:\\D\\Visual Studio C#\\University\\3 курс\\2 семестр\\LR_TRSPO\\LR_1\\LR_1_WPF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fires\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "LiveCharts.Wpf": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            },
+            "OxyPlot.Wpf": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
